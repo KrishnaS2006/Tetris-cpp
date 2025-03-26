@@ -34,19 +34,21 @@ This is a simple implementation of the classic **Tetris** game written in **C++*
    ```bash
    stty -icanon -echo
 
-   Compile the program:
 
+   
+
+3. **Compile the program:**
 g++ -o tetris tetris.cpp
 
-3. **Run the game:**
+4. **Run the game:**
 ./tetris
 
-Re-enable terminal settings after the game exits:
-
-
+5. **Re-enable terminal settings after the game exits:
+**
 
 stty icanon echo
-On Windows:
+
+**##On Windows:**
 Install a C++ compiler (e.g., MinGW, Visual Studio, or MSYS2).
 
 Compile the program:
