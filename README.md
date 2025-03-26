@@ -37,7 +37,7 @@ A simple terminal-based Tetris game implemented in C++ with Unicode colored bloc
 1. **Install a C++ compiler** (e.g., `g++`).
 2. **Compile the program**:
    ```bash
-   g++ -o tetris tetris.cpp
+   g++ -std=c++17 -o tetris tetris.cpp
 Run the game:
 
 
