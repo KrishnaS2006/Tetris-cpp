@@ -38,7 +38,7 @@ This is a simple implementation of the classic **Tetris** game written in **C++*
 
 g++ -o tetris tetris.cpp
 
-Run the game:
+3. **Run the game:**
 ./tetris
 
 Re-enable terminal settings after the game exits:
