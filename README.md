@@ -48,7 +48,7 @@ g++ -o tetris tetris.cpp
 
 stty icanon echo
 
-**##On Windows:**
+**#### On Windows:**
 Install a C++ compiler (e.g., MinGW, Visual Studio, or MSYS2).
 
 Compile the program:
