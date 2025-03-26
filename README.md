@@ -77,11 +77,13 @@ tetris.exe
 The game is divided into multiple classes for clarity and organization:
 
 
+
 **Tetromino Class:**
 
 Represents a single Tetromino with its shape, position (x, y), and block character (e.g., I, O, T).
 
 The shape is defined using a 4x4 matrix where each 1 represents a block part of the Tetromino and 0 represents an empty space.
+
 
 
 
@@ -93,9 +95,12 @@ Responsible for drawing the grid, checking if a move is possible, placing a Tetr
 
 
 
+
 **TetrisGame Class:**
 
 Manages the overall game logic, including the game loop, handling user input, updating the Tetromino position, rendering the game state, and managing the game over state.
+
+
 
 
 
@@ -106,6 +111,7 @@ The game uses kbhit() and _getch() for Windows to detect keypresses.
 On Linux/macOS, it uses ioctl() and read() to get user input without the need for pressing Enter.
 
 
+
 **Rendering:**
 
 The game uses ANSI escape codes (\033[H\033[J) to clear the terminal screen and redraw the game board each frame.
@@ -114,9 +120,12 @@ The game board is printed with vertical walls | and horizontal separators -.
 
 
 
+
 **Game Over:**
 
 The game ends when the board is full, and a new Tetromino cannot be placed at the top. A "Game Over!" message is displayed, and the player can choose to restart or exit.
+
+
 
 
 
@@ -138,9 +147,11 @@ In this example, the I Tetromino is falling, and the controls are displayed at t
 
 
 
+
 **License:**
 
 This project is open-source and available for modification and distribution. You are free to use, modify, and contribute to this code.
+
 
 
 
@@ -149,6 +160,7 @@ This project is open-source and available for modification and distribution. You
 This project was created as an exercise to implement a basic terminal-based game in C++.
 
 Inspired by the classic Tetris game.
+
 
 
 
