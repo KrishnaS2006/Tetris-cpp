@@ -38,9 +38,12 @@ This is a simple implementation of the classic **Tetris** game written in **C++*
    
 
 3. **Compile the program:**
+
 g++ -o tetris tetris.cpp
 
+
 4. **Run the game:**
+
 ./tetris
 
 5. **Re-enable terminal settings after the game exits:
